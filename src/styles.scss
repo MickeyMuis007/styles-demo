@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-color: #30363D;
   --secondary-color: #ff0057;
@@ -14,9 +21,6 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
-
   background: var(--primary-color); 
 }
 
