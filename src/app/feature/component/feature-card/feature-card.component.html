@@ -1,6 +1,7 @@
 <div class="card">
-    <div class="face face1">
+    <div class="face face1" [routerLink]="[featureCard.uri]">
       <div class="content">
+        <img [src]="featureCard.imgUrl">
         <h3>{{ featureCard.name }}</h3>
       </div>
     </div>
