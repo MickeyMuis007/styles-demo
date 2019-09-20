@@ -1,9 +1,9 @@
 .feature-cards {
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  // height: 100vh;
   display: grid;
-  position: relative;
+  // position: relative;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-template-rows: auto;
   // grid-gap: 0 40px;

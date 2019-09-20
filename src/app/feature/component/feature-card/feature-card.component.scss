@@ -3,20 +3,17 @@ img {
   width: 100%;
 }
 
-:host {
-  display: flex;
-  justify-content: center;
-  padding: 0 10px;
-}
-
 .card {
+  // height: 50%;
+  // width: 100%;
+  padding: 5px;
+  margin: 5px;
   color: var(--text-light);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card .face {
-  width: 100%;
-  height: 200px;
+  padding-top: 5px;
   transition: 0.5s;
 }
 
@@ -28,8 +25,10 @@ img {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  transform: translateY(100px);
+  // transform: translateY(100px);
   transition: 0.5s;
+  // width: 100%;
+  border-radius: 20px;
 }
 
 .card .face.face1::before {
@@ -41,10 +40,12 @@ img {
   position: absolute;
   z-index: -1;
   padding: 0;
+  border-radius: 20px;
 }
 
 .card:hover .face.face1 {
-  transform: translateY(80px);
+  // transform: translateY(80px);
+  transform: scaley(1.1);
 }
 
 .card .face.face1:hover {
@@ -69,43 +70,4 @@ img {
   padding: 0;
   text-align: center;
   font-size: 1.5em;
-}
-
-.card .face.face2 {
-  position: relative;
-  background: rgba(255, 255, 255, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: top;
-  padding: 2px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-  transform: translateY(-100px);
-}
-
-.card:hover .face.face2 {
-  transform: translateY(80px);
-}
-
-.card .face.face2 .content p {
-  margin: 0;
-  padding: 0;
-  color: var(--text-dark);
-}
-
-.card .face.face2 .content a {
-  margin: 15px 0 0;
-  display: inline-block;
-
-  text-decoration: none;
-  font-weight: 900;
-  color: var(--text-dark);
-  padding: 5px;
-  padding: 5px;
-  border: 1px solid var(--primary-color);
-}
-
-.card  .face.face2 .content a:hover {
-  background-color: #333;
-  color: #fff;
 }
