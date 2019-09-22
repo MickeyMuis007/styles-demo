@@ -7,6 +7,7 @@ import { Card1Component } from "./card1/card1.component";
 import { Card2Component } from "./card2/card2.component";
 import { Card3Component } from "./card3/card3.component";
 import { CardMenuComponent } from './component/card-menu/card-menu.component';
+import { CardMenuItemComponent } from './component/card-menu/card-menu-item/card-menu-item.component';
 
 const routes: Routes = [
   { path: "", component: CardComponent },
@@ -25,6 +26,6 @@ const routes: Routes = [
 })
 export class CardRoutingModule { 
   static components = [ 
-    Card1Component, CardComponent, Card2Component, Card3Component, CardMenuComponent
+    Card1Component, CardComponent, Card2Component, Card3Component, CardMenuComponent, CardMenuItemComponent
   ];
 }
