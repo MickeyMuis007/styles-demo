@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ICardMenuItem } from '../../../model/card-menu-item.model';
 
 @Component({
   selector: "card-card-menu-item",
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-menu-item.component.scss']
 })
 export class CardMenuItemComponent {
-
+  @Input() cardMenuItem: ICardMenuItem;
 }
