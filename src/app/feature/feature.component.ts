@@ -14,6 +14,7 @@ export class FeatureComponent implements OnInit {
   ngOnInit() {
     this.featureCards = [
       { uri: "card", name: "Cards", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
+      { uri: "background", name: "Background", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "button", name: "Buttons", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "heading", name: "Headings", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "color", name: "Colors", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
