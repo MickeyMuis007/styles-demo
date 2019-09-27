@@ -9,13 +9,14 @@
 
 .box {
   position: relative;
-  height: 350px;
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #000;
   background: #060c21;
+  padding-bottom: 40px;
 
 
   &:before {
@@ -25,7 +26,7 @@
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(315deg, #ff0057, #e64a19);
+    background: linear-gradient(315deg, #00c9d1, #ff0057, #e64a19, #c700f5, #00ffee, #ffee00);
     transform: skew(1deg, 1deg);
     z-index: -1;
   }
@@ -43,7 +44,7 @@
   &:hover {
     .content {
       h2 {
-        top: -140px;
+        top: -180px;
       }
 
       a {
