@@ -1,9 +1,6 @@
-:host {
- 
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-template-rows: auto;
+  // transition: 2s linear;
 }
