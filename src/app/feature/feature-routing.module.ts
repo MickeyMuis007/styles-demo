@@ -9,7 +9,8 @@ import { FeatureCardComponent } from "./component/feature-card/feature-card.comp
 const routes: Routes = [
   { path: "", component: FeatureComponent },
   { path: "card", loadChildren: () => import("./card/card.module").then(m => m.CardModule) },
-  { path: "background", loadChildren: () =>  import("./background/background.module"). then(m => m.BackgroundModule)}
+  { path: "background", loadChildren: () =>  import("./background/background.module").then(m => m.BackgroundModule)},
+  { path: "slider", loadChildren: () => import("./slider/slider.modules").then(m => m.SliderModule)}
 ]
 
 @NgModule({

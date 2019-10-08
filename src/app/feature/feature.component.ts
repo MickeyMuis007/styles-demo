@@ -17,7 +17,7 @@ export class FeatureComponent implements OnInit {
       { uri: "background", name: "Background", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "button", name: "Buttons", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "heading", name: "Headings", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
-      { uri: "color", name: "Colors", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
+      { uri: "slider", name: "Sliders", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "navigation", name: "Navigations", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "animation", name: "Animations", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "loaders", name: "Loaders", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
