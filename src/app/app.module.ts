@@ -4,7 +4,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './container/app/app.component';
 
 @NgModule({
   declarations: [
