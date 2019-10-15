@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 import { RouterModule, Routes } from "@angular/router";
 
 // Components
-import { FeatureComponent } from "./feature.component";
+import { FeatureComponent } from "./container/feature/feature.component";
 import { FeatureCardComponent } from "./component/feature-card/feature-card.component";
 
 const routes: Routes = [

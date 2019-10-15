@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 // Containers
-import { SliderComponent } from "./containers/slider/slider.component";
-import { SliderMenuComponent } from "./containers/slider-menu/slider-menu.component";
+import { SliderComponent } from "./container/slider/slider.component";
 
 // Components
-import { Slider1Component } from "./components/slider1/slider1.component";
+import { Slider1Component } from "./component/slider1/slider1.component";
+import { SliderMenuComponent } from "./component/slider-menu/slider-menu.component";
 
 const routes: Routes = [
   { path: "", component: SliderComponent },

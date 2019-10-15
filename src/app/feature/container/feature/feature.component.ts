@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FeatureCard } from './model/feature-card.model';
+import { FeatureCard } from '../../model/feature-card.model';
 
 @Component({
   selector: 'app-feature',
