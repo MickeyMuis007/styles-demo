@@ -16,6 +16,7 @@ export class CardMenuComponent implements OnInit {
       This is a decription on card 1`, uri: "card1" },
       { id: "2", name: "Card 2", description: "This is a description on card 2", uri: "card2" },
       { id: "3", name: "Card 3", description: "This is a description on card 3", uri: "card3" },
+      { id: "4", name: "Card 4", description: "This is a description on card 4", uri: "card4" },
     ]
   }
 }
