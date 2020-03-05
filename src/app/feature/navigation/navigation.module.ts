@@ -1,15 +1,15 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
-import { BackgroundRoutingModule } from "./background-routing.module";
+import { NavigationRoutingModule } from "./navigation-routing.module";
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
-  declarations: [BackgroundRoutingModule.components],
+  declarations: [NavigationRoutingModule.components],
   imports: [
     CommonModule,
-    BackgroundRoutingModule,
+    NavigationRoutingModule,
     SharedModule
   ]
 })
-export class BackgroundModule { }
+export class NavigationModule { }

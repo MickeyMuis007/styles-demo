@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { FeatureRoutingModule } from './feature-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -11,7 +12,8 @@ import { FeatureRoutingModule } from './feature-routing.module';
   imports: [
     CommonModule,
     FeatureRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    SharedModule
   ]
 })
 export class FeatureModule { }

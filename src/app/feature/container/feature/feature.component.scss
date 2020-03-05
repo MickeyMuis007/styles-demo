@@ -1,19 +1,10 @@
 .feature-cards {
   justify-content: center;
   align-items: center;
-  // height: 100vh;
   display: grid;
-  // position: relative;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  grid-template-rows: auto;
-  // grid-gap: 0 40px;
-  // transition: 5s;
+  grid-auto-rows: 300px;
 }
-
-// .feature-cards > * {
-//   transition: all 4s linear !important;
-//   color: pink !important;
-// }
 
 .header {
   grid-column: 1 / 4;

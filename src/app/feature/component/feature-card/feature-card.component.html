@@ -1,14 +1,13 @@
 <div class="card">
-    <div class="face face1" [routerLink]="[featureCard.uri]">
-      <div class="content">
+  <div class="face face1" [routerLink]="[featureCard.uri]">
+    <div class="content">
+      <div class="details-img">
         <img [src]="featureCard.imgUrl">
+      </div>
+      <div class="details">
         <h3>{{ featureCard.name }}</h3>
+        <p>{{ featureCard.description }}</p>
       </div>
     </div>
-    <!-- <div class="face face2">
-      <div class="content">
-        <p>{{ featureCard.description }}</p>
-        <a href="#">Read More...</a>
-      </div>
-    </div> -->
   </div>
+</div>
