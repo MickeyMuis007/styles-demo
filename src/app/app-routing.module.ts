@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { NavigationBarComponent } from "./component/navigation-bar/navigation-bar.component";
+
 
 const routes: Routes = [ 
   { path: '', pathMatch: 'full', redirectTo: '/feature' },
@@ -11,4 +13,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { 
+  static components = [NavigationBarComponent];
+}
