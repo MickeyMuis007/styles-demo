@@ -13,7 +13,7 @@ export class NavigationContainer {
 
   ngOnInit() {
     this.navigationMenus = [
-      { uri: "navigation1", name: "Navigation 1", description: "The 1st navigation design", imgUrl: "assets/img/undraw/publish_article_icso.png" }
+      { uri: "nav-1", name: "Navigation 1", description: "The 1st navigation design", imgUrl: "assets/img/undraw/publish_article_icso.png" }
     ]
   }
 }
