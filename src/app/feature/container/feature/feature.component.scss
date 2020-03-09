@@ -1,11 +1,3 @@
-.feature-cards {
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  grid-auto-rows: 300px;
-}
-
 .header {
   grid-column: 1 / 4;
   grid-row: 1;

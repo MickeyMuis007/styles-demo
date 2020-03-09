@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: "background", loadChildren: () =>  import("./background/background.module").then(m => m.BackgroundModule)},
   { path: "slider", loadChildren: () => import("./slider/slider.modules").then(m => m.SliderModule)},
   { path: "button", loadChildren: () => import("./button/button.module").then(m => m.ButtonModule)},
-  { path: "navigation", loadChildren: () => import("./navigation/navigation.module").then(m => m.NavigationModule)}
+  { path: "navigation", loadChildren: () => import("./navigation/navigation.module").then(m => m.NavigationModule)},
+  { path: "login", loadChildren: () => import("./login/login.module").then(m => m.LoginModule)}
 ]
 
 @NgModule({

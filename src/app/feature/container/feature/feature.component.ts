@@ -22,7 +22,7 @@ export class FeatureComponent implements OnInit {
       { uri: "navigation", name: "Navigations", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "animation", name: "Animations", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
       { uri: "loaders", name: "Loaders", description: "This is a demo that's shows different card styles I encounter along my study path.", imgUrl: "assets/img/data.png" },
-      { uri: "logins", name: "Login", description: "This is different forms for login in", imgUrl: "assets/img/undraw/publish_article_icso.png" }
+      { uri: "login", name: "Login", description: "This is different forms for login in", imgUrl: "assets/img/undraw/publish_article_icso.png" }
     ]
   }
 
