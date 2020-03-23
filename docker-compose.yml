@@ -3,12 +3,12 @@ version: '3.7'
 services:
 
   example:
-    container_name: example
+    container_name: style-demo
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - '.:/app'
-      - '/app/node_modules'
+      - './node_modules:/app/node_modules'
     ports:
       - '4201:4200'
