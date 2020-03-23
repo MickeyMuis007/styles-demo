@@ -2,10 +2,12 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule, Routes } from "@angular/router";
 
-import { ButtonComponent } from "./container/button/button.component";
+import {  ButtonContainer } from "./container/button/button.container";
+import { SearchButtonComponent } from "./component/search-button/search-button.component";
 
 const routes: Routes = [
-  { path: "", component: ButtonComponent }
+  { path: "", component: ButtonContainer },
+  { path: "search-button", component: SearchButtonComponent }
 ]
 
 @NgModule({
@@ -15,5 +17,5 @@ const routes: Routes = [
   ]
 })
 export class ButtonRoutingModule {
-  static component = [ ButtonComponent ]
+  static component = [ ButtonContainer, SearchButtonComponent ]
 }

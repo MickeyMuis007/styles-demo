@@ -14,6 +14,7 @@ import { AppComponent } from './container/app/app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     FontAwesomeModule
   ],
   providers: [],
