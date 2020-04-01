@@ -1,47 +1,61 @@
 <div class="container">
   <div class="card">
-    <div class="face face1">
-      <div class="content">
-        <h2>Service One</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Sit repudiandae mollitia harum id ipsam qui obcaecati itaque ex. Ipsa, assumenda.</p>
-        <a href="">Read More</a>
+    <div class="front" [ngClass]="{'front-view': viewMore}">
+      <div class="location">New Dehli</div>
+      <div class="more" (click)="viewMore = !viewMore"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+      <div class="weather">
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+        <h1><span>8<sup>o</sup></span><span>Today</span></h1>
+        <ul class="forecast">
+          <li>
+            <div class="day">Sunday</div>
+            <div class="temprature">
+              <i class="fa fa-cloud" aria-hidden="true"></i>
+              9 <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Monday</div>
+            <div class="temprature">
+              <i class="fa fa-tint" aria-hidden="true"></i>
+              9 <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Tuesday</div>
+            <div class="temprature">
+              <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+              9 <sup>o</sup>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="face face2">
-      <div class="content">
-        <h2>1</h2>
-      </div>
+    <div class="back" [ngClass]="{'view-more': viewMore}">
+      <div class="go-back" (click)="viewMore = !viewMore"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>
+      <ul class="forecast">
+        <li>
+          <div class="day">Yesterday</div>
+          <div class="temprature">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            7 <sup>o</sup>
+          </div>
+        </li>
+        <li>
+          <div class="day">Today</div>
+          <div class="temprature">
+            <i class="fa fa-tint" aria-hidden="true"></i>
+            8 <sup>o</sup>
+          </div>
+        </li>
+        <li>
+          <div class="day">Tommorow</div>
+          <div class="temprature">
+            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+            9 <sup>o</sup>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
-  <div class="card">
-      <div class="face face1">
-        <div class="content">
-          <h2>Service Two</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Sit repudiandae mollitia harum id ipsam qui obcaecati itaque ex. Ipsa, assumenda.</p>
-          <a href="">Read More</a>
-        </div>
-      </div>
-      <div class="face face2">
-        <div class="content">
-          <h2>2</h2>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <h2>Service Three</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Sit repudiandae mollitia harum id ipsam qui obcaecati itaque ex. Ipsa, assumenda.</p>
-            <a href="">Read More</a>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-            <h2>3</h2>
-          </div>
-        </div>
-      </div>
 </div>

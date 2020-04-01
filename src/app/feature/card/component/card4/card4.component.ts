@@ -5,4 +5,7 @@ import { Component } from "@angular/core";
   templateUrl: "./card4.component.html",
   styleUrls: ["./card4.component.scss"]
 })
-export class Card4Component { }
+export class Card4Component {
+  viewMore = false;
+
+ }
