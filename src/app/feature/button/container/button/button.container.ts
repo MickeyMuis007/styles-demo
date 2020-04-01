@@ -14,7 +14,7 @@ export class ButtonContainer implements OnInit {
   ngOnInit() {
     this.buttonMenus = [
       { uri: "search-button", name: "Search Button", description: "This is a search button text input", imgUrl: "assets/img/data.png"},
-      { uri: "button-2", name: "Button 2", description: "Button 2 description", imgUrl: "assets/img/data.png"},
+      { uri: "neumorphism-radio-button", name: "Neumorphism Radio Button", description: "Button 2 description", imgUrl: "assets/img/data.png"},
     ]
   }
 }
