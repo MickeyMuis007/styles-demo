@@ -15,7 +15,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/fontawesome-free": "^5.12.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "@angular/animations": "~9.0.7",
     "@angular/common": "~9.0.7",
     "@angular/compiler": "~9.0.7",
